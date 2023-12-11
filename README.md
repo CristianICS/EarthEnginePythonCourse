@@ -1,29 +1,22 @@
-<img alt="mastergis" src="https://user-images.githubusercontent.com/16768318/73984100-c96ee500-492f-11ea-92a8-87ba3ffc1a60.jpg" align="right" width = 15%/>
-
-# **Introducción a Google Earth Engine con Python**
+# Introducción a Google Earth Engine con Python
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
 
-### :earth_americas: **Introducción** 
+La disponibilidad de datos abiertos procedentes de imágenes de satélite es del orden de Terabytes. Procesarla de forma eficiente requiere de una infraestructura computacional y de personal calificado en ingeniería de datos. La API de Google Earth Engine (GEE) permite el procesado de multitud de colecciones satelitales e información raster y vectorial de forma gratuita y rápida. En este curso, creado por [Cesar Luis Aybar Camacho](https://github.com/csaybar/), se presenta la herramienta de Google Earth Engine con el objetivo de reemplazar los flujos de trabajos tradicionales en procesamiento digital de imágenes. 
 
-La manipulación de ciento de Gigabytes (incluso Terabytes) de datos espaciales, ha sido una actividad muy limitada debido al alto costo de adquisición de la infraestructura computacional adecuada y a la falta de personal calificado en ingeniería de datos. Google Earth Engine (GEE) ha solucionado este problema ofreciendo una plataforma completamente gratuita, fácil de usar y con la capacidad de procesar cientos de Gigabytes datos (raster y vector) en cuestión de minutos.
+## Objetivos
 
-En este curso presentamos el potencial que tiene el uso de Google Earth Engine para reemplazar los flujos de trabajos tradicionales en procesamiento digital de imágenes. Todos los tópicos y ejemplos tocados serán abordados con problemas reales ligados al quehacer diario de un profesional en teledetección y SIG. Para poder llevar este curso satisfactoriamente es necesario conocimientos de programación en Python y teledetección básica.
+1) Mostrar las ventajas y desventajas entre flujos de trabajo tradicionales (ej: ENVI + ARCGIS) frente a Google Earth Engine ("Lazy evaluation").
 
-### :sparkles: **¿Qué vas a lograr en este curso?**
+2) Mostrar las ventajas y desventajas del uso de GEE mediante las APIs de Python vs JavaScript.
 
-1) Mostrar las ventajas y desventajas entre flujos de trabajo tradicionales (ej: ENVI + ARCGIS) frente a Google Earth Engine (Lazy evaluation).
+3) Exponer flujos de trabajos eficientes a la hora de trabajar con sistemas cliente-servidor.
 
-2) Mostrar las ventajas y desventajas entre usar GEE con Python vs JavaScript.
+4) Introducción a la sintaxis de la API de GEE en Python.  
 
-3) Dar a conocer a los participantes la forma adecuada de trabajar con sistemas cliente-servidor.
+5) Descargar, manipular y procesar cientos de imágenes satelitales (Sentinel, Landsat, Modis, etc.) de cualquier parte del mundo en cuestión de minutos.
 
-4) Introducir a los participantes en la sintaxis de Google Earth Engine con Python.
-
-5) Poder descargar, manipular y procesar cientos de imágenes satelitales (Sentinel, Landsat, Modis, etc.) de cualquier parte del mundo en cuestión de minutos.
-
-### :point_up: **Silabus**
+## Programa
 
 - **Módulo 01:** Entendiendo GEE
   - Bienvenidos
@@ -77,20 +70,19 @@ En este curso presentamos el potencial que tiene el uso de Google Earth Engine p
 - **Extras:** Material adicional en español fuera del curso!
   - [Joins en Google Earth Engine](https://colab.research.google.com/github/csaybar/EarthEngineMasterGIS/blob/master/EXTRA/extra_joins.ipynb).
 
-### :computer: **Ejercicios Propuestos**
+## Ejercicios Propuestos
 
-A fin de poder recibir un certificado de finalización del curso usted debe ser capaz de resolver los siguientes problemas propuestos.
+- [Ejercicio N°01](https://colab.research.google.com/github/csaybar/EarthEngineMasterGIS/blob/master/tarea/PROP_01_RUSLE.ipynb):  Estimar la erosión multianual para cualquier parte del mundo
 
-- [Ejercicio N°01](https://colab.research.google.com/github/csaybar/EarthEngineMasterGIS/blob/master/tarea/PROP_01_RUSLE.ipynb):  Estimar la Erosión multianual para cualquier parte del mundo
+- [Ejercicio N°02](https://colab.research.google.com/github/csaybar/EarthEngineMasterGIS/blob/master/tarea/Indices.ipynb): Elaborar un Mapa de Índice espectral (e.g. NDVI, NDSI, NDWI, etc.) 
 
-- [Ejercicio N°02](https://colab.research.google.com/github/csaybar/EarthEngineMasterGIS/blob/master/tarea/Indices.ipynb): Elaborar un Mapa de Índice espectral puede ser NDVI, NDSI, NDWI, etc.) 
-### :gift: **Snippets**
+## "Snippets"
 
-Puedes acceder a todos los snippets desarrollados en el curso dando clic [aquí](https://colab.research.google.com/drive/1n0CWwURmOmw93GDkiwcT5HWtwv5pbtjl)
+Puedes acceder a todos los "snippets" desarrollados en el curso dando clic [aquí](https://colab.research.google.com/drive/1n0CWwURmOmw93GDkiwcT5HWtwv5pbtjl)
 
-### :pencil2: **Donde seguir aprendiendo**  
+## Donde seguir aprendiendo  
 
-Si has llegado hasta aquí déjame **felicitarte**, empezar siempre es lo más difícil y tu ya lo haz logrado! :tada: :tada:. Sin embargo, aún hay mucho por aprender, recuerda que actualmente la API te ofrece más de **1000** formas diferentes de interactuar (entre  clases, métodos y funciones) con los servidores de Google Earth Engine, además considera que este número sigue aumentando!.  En esta sección te adjunto alguno de los materiales más importantes que encontrarás en Internet sobre la Earth Engine Python API y donde seguir mejorando tus habilidades con **Python**.
+Actualmente la API de GEE ofrece más de **1000** formas diferentes de interactuar (entre `clases`, `métodos` y `funciones`) con los servidores de Google Earth Engine. En esta sección se adjuntan algunos de los materiales más importantes que encontrarás en Internet sobre la Earth Engine Python API y donde seguir mejorando tus habilidades con **Python**.
 
 **Material Online en Github**
 
@@ -106,25 +98,4 @@ Si has llegado hasta aquí déjame **felicitarte**, empezar siempre es lo más d
 
 - [**Fluent Python**](https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008) Excelente libro para perfeccionar tus habilidades en Python sobretodo si ya tienes experiencia en Python u otro lenguaje de programación.
 
-- [**Complete Python Bootcamp: Go from zero to hero in Python 3**](https://www.udemy.com/course/complete-python-bootcamp/): Curso con videos mas completo que encontrarás en Internet, lo mejor de todo solo cuesta 10 dólares!.
-
-### :man: **Instructor** 
-
-**Cesar Luis Aybar Camacho**
-
-Ingeniero geógrafo con experiencia en análisis geo estadístico, modelamiento hidrológico, sistema de información geográfica y teledetección. Dominio de los lenguajes de programación C++, R y Python, además de conceptos ligados a la hidrología satelital, machine learning y web scraping. 
-
-### :octocat: **Changelog**
-
-```
-Version 0.1.0
- - Acentos y caracteres extraños eliminados.
- - 6 módulos y 2 ejercicios propuestos.
- - Libros y información extra.
-
-Version 0.1.1
- - Licencia MIT agregada
-```
-
-
-
+- [**Complete Python Bootcamp: Go from zero to hero in Python 3**](https://www.udemy.com/course/complete-python-bootcamp/)
