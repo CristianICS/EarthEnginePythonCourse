@@ -26,4 +26,10 @@ Sin embargo, las colecciones de Earth Engine no acceden a la información de Goo
 
 ## Cuáles son las ventajas y desventajas de usar el API de Python frente al de JavaScript.
 
+- Es más fácil compartir códigos.
+- Transición rápida a una aplicación web.
+- Posibilidad de integración con marcos de ML/DL .
+- Multitud de opciones gráficas (folium, plotly, matplotlib, seaborn ,etc.).
+- Se puede ejecutar la API de Earth Engine en Python desde la nube de forma gratuita. [Ver el curso de EE para más detalles.](https://colab.research.google.com/github/csaybar/EEwPython/blob/dev/1_Introduction.ipynb)
+
 ## Colab (jupyter notebbok) como interfaz para usar Python.
