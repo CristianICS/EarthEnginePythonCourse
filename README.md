@@ -19,13 +19,13 @@ La disponibilidad de datos abiertos procedentes de imágenes de satélite es del
 ## Programa
 
 - **Módulo 01:** Entendiendo GEE
-  - Bienvenidos
-  - ¿Qué es Google Earth Engine?
-  - Catálogo de datos de GEE
-  - ¿Comó funciona la Infraestructura computacional de GEE?
-  - API’s: Programación funcional
-  - Cuáles son las ventajas y desventajas de usar el API de Python frente al de JavaScript.
-  - Colab (jupyter notebbok) como interfaz para usar Python.
+  - Conceptos básicos
+    - ¿Qué es Google Earth Engine?
+    - Catálogo de datos de GEE
+    - ¿Comó funciona la Infraestructura computacional de GEE?
+    - API’s: Programación funcional
+    - Cuáles son las ventajas y desventajas de usar el API de Python frente al de JavaScript.
+    - Colab (jupyter notebbok) como interfaz para usar Python.
   - [Primeros pasos en colab y comandos básicos en Linux](https://colab.research.google.com/github/csaybar/EarthEngineMasterGIS/blob/master/module01/01_introcolab.ipynb).
 
 
